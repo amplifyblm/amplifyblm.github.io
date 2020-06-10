@@ -30,14 +30,14 @@
 			}
 
 				.content .logo {
-					width: 40%;
+					width: 50%;
 					display: inline-block;
-					margin-left: 30%;
+					margin-left: 25%;
 					margin-top: 3em;
 				}
 
 				.content .text {
-					margin-left: 30%;
+					margin-left: 25%;
 					margin-top: 1em;
 					width: 40%;
 					text-align: center;
@@ -73,13 +73,34 @@
 					font-color: #fff !important;
 				}
 
-			@media (min-aspect-ratio: 16/9) {
-			  
+			@media only screen 
+			  and (min-device-width: 375px) 
+			  and (max-device-width: 667px) 
+			  and (-webkit-min-device-pixel-ratio: 2) { 
+			  	body {
+			  		font-size: 120%;
+			  	}
 			}
 
-			@media (max-aspect-ratio: 16/9) {
-			  
+
+			@media only screen 
+			  and (min-device-width: 414px) 
+			  and (max-device-width: 736px) 
+			  and (-webkit-min-device-pixel-ratio: 3) { 
+			  	body {
+			  		font-size: 120%;
+			  	}
 			}
+
+			@media only screen 
+			  and (min-device-width: 375px) 
+			  and (max-device-width: 812px) 
+			  and (-webkit-min-device-pixel-ratio: 3) { 
+			  	body {
+			  		font-size: 120%;
+			  	}
+			}
+
 	</style>
 	<title>AMPLIFY BLM</title>
 	<meta property="og:site_name" content="AMPLIFY BLM"/>
